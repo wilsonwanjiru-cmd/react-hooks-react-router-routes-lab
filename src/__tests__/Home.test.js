@@ -9,3 +9,4 @@ test("renders 'Home Page' inside of a <h1 />", () => {
   expect(h1).toBeInTheDocument();
   expect(h1.tagName).toBe("H1");
 });
+
